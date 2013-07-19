@@ -1,0 +1,11 @@
+@import url(typography.css);
+/**
+ * This support file is used to style the WYSIWYG editor in the CMS
+ */
+.typography {
+  /* Adjust for CMS */
+  font-size: 13px;
+}
+.typography table, .typography tr, .typography td {
+  font-size: 13px;
+}
