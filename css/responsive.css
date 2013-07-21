@@ -1238,28 +1238,12 @@
 /*****************************
 CUSTOM RESPONSIVE STYLES
 ******************************/
-/*
-@media (min-width: 1200px) {
-
-}
-*/
-/*
 @media (max-width: 979px) {
+  header section .nav {
+    padding-top: 0;
+  }
 
-}
-*/
-@media (min-width: 768px) and (max-width: 979px) {
-  .navbar .container {
-    width: 724px;
+  section#myCarousel {
+    margin-top: 0px;
   }
 }
-/*
-@media (max-width: 767px) {
-
-}
-*/
-/*
-@media (max-width: 480px) {
-
-}
-*/

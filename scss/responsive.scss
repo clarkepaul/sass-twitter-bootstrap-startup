@@ -7,48 +7,43 @@ CUSTOM RESPONSIVE STYLES
 // LARGE DESKTOP & UP
 // ------------------
 
-/*
 @media (min-width: 1200px) {
 
 }
-*/
 
 
 // ANYTHING SMALLER THAN DEFAULT DESKTOP 
 // ----------------------------------
 
-/*
 @media (max-width: 979px) {
-
+	header section .nav {
+	    padding-top: 0;
+  	}
+  	section#myCarousel {
+	    margin-top: 0px;
+	}
 }
-*/
 
 
 // PORTRAIT TABLET TO DEFAULT DESKTOP
 // ----------------------------------
 
 @media (min-width: 768px) and (max-width: 979px) {
-	.navbar .container {
-		width: 724px;
-	}
+
 }
 
 
 // LANDSCAPE PHONE TO SMALL DESKTOP & PORTRAIT TABLET
 // --------------------------------------------------
 
-/*
 @media (max-width: 767px) {
 
 }
-*/
 
 
 // UP TO LANDSCAPE PHONE
 // ---------------------
 
-/*
 @media (max-width: 480px) {
 
 }
-*/
